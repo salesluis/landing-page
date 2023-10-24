@@ -1,0 +1,74 @@
+@import "./components/components.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Merriweather';
+}
+
+
+main {
+  display: flex;
+}
+
+.home-bg {
+  display: flex;
+  width: 50%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dark-20);
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+.login-apresentacao h1{
+  margin-bottom: 32px;
+}
+
+.login-input{
+  display: flex;
+  flex-direction: column;
+}
+.login-input label{
+  font-family: 'lato';
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.login-input input{
+  height:50px ;
+  margin-bottom: 12px;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+
+}
+
+.login-text{
+  margin-bottom: 24px;
+}
+
+.login-input input::placeholder{
+  padding-left: 8px;
+}
+
+.logar{
+  display: grid;
+  margin-bottom: 32px;
+}
+
+.login p{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+

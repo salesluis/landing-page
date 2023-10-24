@@ -1,0 +1,39 @@
+:root {
+  --dark-10: #1a202c;
+  --dark-20: #f7fafc;
+  --dark-30: #ffffff;
+  --border: #e8e8e8;
+  --button: #04c35c;
+  --button-secondary: #1a202c;
+}
+
+a {
+  text-decoration: none;
+}
+
+.botao {
+  display: flex;
+  justify-content: center;
+  background: var(--button);
+  padding: 15px 0;
+  margin-bottom: 12px;
+  border-radius: 5px;
+  color: var(--dark-30);
+  font-size: 1.1rem;
+  font-family: "lato";
+  font-weight: 600;
+}
+
+.secundario {
+  display: flex;
+  justify-content: center;
+  background: var(--button-secondary);
+  padding: 15px 0;
+  border-radius: 5px;
+  color: var(--dark-30);
+  font-family: "lato";
+  font-weight: 600;
+}
+.secundario img {
+  margin-right: 8px;
+}
